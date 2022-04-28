@@ -1,20 +1,20 @@
 /*
- *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
+ *  This file is part of blackhole (https://github.com/Sangwan5688/blackhole).
  * 
- * BlackHole is free software: you can redistribute it and/or modify
+ * blackhole is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * BlackHole is distributed in the hope that it will be useful,
+ * blackhole is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
+ * along with blackhole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2022, Ankit Sangwan
+ * Copyright (c) 2021-2022, Dhanesh
  */
 
 import 'dart:io';
@@ -60,7 +60,7 @@ class _SettingPageState extends State<SettingPage> {
       .get('downloadPath', defaultValue: '/storage/emulated/0/Music') as String;
   String autoBackPath = Hive.box('settings').get(
     'autoBackPath',
-    defaultValue: '/storage/emulated/0/BlackHole/Backups',
+    defaultValue: '/storage/emulated/0/blackhole/Backups',
   ) as String;
   final ValueNotifier<bool> includeOrExclude = ValueNotifier<bool>(
     Hive.box('settings').get('includeOrExclude', defaultValue: false) as bool,
@@ -78,7 +78,7 @@ class _SettingPageState extends State<SettingPage> {
   String ytDownloadQuality = Hive.box('settings')
       .get('ytDownloadQuality', defaultValue: 'High') as String;
   String lang =
-      Hive.box('settings').get('lang', defaultValue: 'English') as String;
+      Hive.box('settings').get('lang', defaultValue: 'Urdu') as String;
   String canvasColor =
       Hive.box('settings').get('canvasColor', defaultValue: 'Grey') as String;
   String cardColor =
@@ -2455,6 +2455,7 @@ class _SettingPageState extends State<SettingPage> {
                                 'Tamil': 'ta',
                                 'Turkish': 'tr',
                                 'Ukrainian': 'uk',
+                                'Urdu': 'ur',
                               };
                               if (newValue != null) {
                                 setState(
@@ -2485,6 +2486,7 @@ class _SettingPageState extends State<SettingPage> {
                               'Tamil',
                               'Turkish',
                               'Ukrainian',
+                              'Urdu',
                             ].map<DropdownMenuItem<String>>((String value) {
                               return DropdownMenuItem<String>(
                                 value: value,
@@ -3388,9 +3390,9 @@ class _SettingPageState extends State<SettingPage> {
                             onPressed: () async {
                               autoBackPath =
                                   await ExtStorageProvider.getExtStorage(
-                                        dirName: 'BlackHole/Backups',
+                                        dirName: 'blackhole/Backups',
                                       ) ??
-                                      '/storage/emulated/0/BlackHole/Backups';
+                                      '/storage/emulated/0/blackhole/Backups';
                               Hive.box('settings')
                                   .put('autoBackPath', autoBackPath);
                               setState(
@@ -3569,7 +3571,7 @@ class _SettingPageState extends State<SettingPage> {
                             Share.share(
                               '${AppLocalizations.of(
                                 context,
-                              )!.shareAppText}: https://github.com/Sangwan5688/BlackHole',
+                              )!.shareAppText}: https://github.com/memrdk/blackhole',
                             );
                           },
                           dense: true,
@@ -3589,7 +3591,7 @@ class _SettingPageState extends State<SettingPage> {
                           ),
                           dense: true,
                           onTap: () {
-                            launch('https://www.buymeacoffee.com/ankitsangwan');
+                            launch('https://www.buymeacoffee.com/memrdk');
                           },
                         ),
                         ListTile(
@@ -3609,13 +3611,13 @@ class _SettingPageState extends State<SettingPage> {
                           isThreeLine: true,
                           onTap: () {
                             const String upiUrl =
-                                'upi://pay?pa=ankit.sangwan.5688@oksbi&pn=BlackHole';
+                                'upi://pay?pa=memrdk@oksbi&pn=blackhole';
                             launch(upiUrl);
                           },
                           onLongPress: () {
                             copyToClipboard(
                               context: context,
-                              text: 'ankit.sangwan.5688@oksbi',
+                              text: 'memrdk@oksbi',
                               displayText: AppLocalizations.of(
                                 context,
                               )!
@@ -3632,7 +3634,7 @@ class _SettingPageState extends State<SettingPage> {
                             onPressed: () {
                               copyToClipboard(
                                 context: context,
-                                text: 'ankit.sangwan.5688@oksbi',
+                                text: 'memrdk@oksbi',
                                 displayText: AppLocalizations.of(
                                   context,
                                 )!
@@ -3690,7 +3692,7 @@ class _SettingPageState extends State<SettingPage> {
                                               onPressed: () {
                                                 Navigator.pop(context);
                                                 launch(
-                                                  'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dblackholeyoucantescape%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
+                                                  'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dmemrdk%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
                                                 );
                                               },
                                             ),
@@ -3744,7 +3746,7 @@ class _SettingPageState extends State<SettingPage> {
                                               onPressed: () {
                                                 Navigator.pop(context);
                                                 launch(
-                                                  'https://instagram.com/sangwan5688',
+                                                  'https://instagram.com/iammrdk1',
                                                 );
                                               },
                                             ),
@@ -3803,7 +3805,7 @@ class _SettingPageState extends State<SettingPage> {
                                               onPressed: () {
                                                 Navigator.pop(context);
                                                 launch(
-                                                  'https://t.me/joinchat/fHDC1AWnOhw0ZmI9',
+                                                  'https://t.me/joinchat/iammrdk',
                                                 );
                                               },
                                             ),
@@ -3830,7 +3832,7 @@ class _SettingPageState extends State<SettingPage> {
                                               onPressed: () {
                                                 Navigator.pop(context);
                                                 launch(
-                                                  'https://t.me/blackhole_official',
+                                                  'https://t.me/memrdk',
                                                 );
                                               },
                                             ),
