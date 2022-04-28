@@ -1,15 +1,15 @@
-<img width="125px" src="https://github.com/Sangwan5688/blackhole/blob/main/assets/icon-white-trans.png" align="center" />
+<img width="125px" src="https://github.com/Sangwan5688/BlackHole/blob/main/assets/icon-white-trans.png" align="center" />
 
-# blackhole
+# BlackHole
 
-Incrível Music Player feito com Flutter!
+Um reprodutor de música incrível para todas as suas necessidades!
 
-[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/blackhole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/blackhole/total)
-[![Build](https://github.com/Sangwan5688/blackhole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/blackhole/actions/workflows/flutter.yml)
+[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/BlackHole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
+[![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
 
 ### Não esqueça de :star: esse repositório
 
-[![GitHub stars](https://img.shields.io/github/stars/Sangwan5688/blackhole.svg?style=social&label=Star)](https://github.com//Sangwan5688/blackhole) ![GitHub forks](https://img.shields.io/github/forks/Sangwan5688/blackhole.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/Sangwan5688.svg?style=social&label=Follow)
+[![GitHub stars](https://img.shields.io/github/stars/Sangwan5688/BlackHole.svg?style=social&label=Star)](https://github.com//Sangwan5688/BlackHole) ![GitHub forks](https://img.shields.io/github/forks/Sangwan5688/BlackHole.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/Sangwan5688.svg?style=social&label=Follow)
 
 ## Download
 
@@ -23,86 +23,86 @@ Incrível Music Player feito com Flutter!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
      alt="Download from GitHub"
-     height="60">](https://github.com/Sangwan5688/blackhole/releases)
+     height="60">](https://github.com/Sangwan5688/BlackHole/releases)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Join Telegram Channel"
      height="60">](https://t.me/blackhole_official)
 
-## Translations
+## Traduções
 
 - [English :uk:](/README.md)
 - [Spanish :es:](/README.ES.md)
 - [Russian :ru:](/README.RU.md)
 
-Obrigado à [Lucas](https://github.com/LucasPJS) por esta tradução
+Obrigado à [Lucas](https://github.com/LucasPJS) e [LuanRT](https://github.com/LuanRT) por esta tradução.
 
 ## Features
 
-* Melhor qualidade de streaming (320kbps aac)
-* Busca por Música, Album, Artista e Playlist
-* Listas de reprodução promovidas em idiomas específicos
+* Ótima qualidade de streaming (320kbps aac)
+* Busca por música, album, artista e playlists
+* Playlists em alta em idiomas específicos
 * Músicas populares
 * Rádios de artistas e gêneros
 * Suporta mais de 15 idiomas de música
 * Principais músicas locais e globais do Spotify
 * Adicionar músicas aos favoritos
-* Suporta Playlists
-* Importe Playlists do Spotify & YouTube
-* Importe/Exporte Playlists como JSON File
-* Compartilhe Playlists
+* Suporta playlists
+* Importe playlists do Spotify & YouTube
+* Importe/Exporte playlists em arquivo JSON
+* Compartilhe playlists
 * Despertador
 * Suporte à letras
 * Gestão de filas
-* Registro do histórico de escuta
+* Registra histórico de reprodução
 * Modo escuro / Cor de destaque
 * Gradientes personalizados e outras opções de tema
-* Suporta o modo Retrato e Paisagem
+* Suporta modo Retrato e Paisagem
 * Baixe para ouvir offline (320 kbps com tags ID3)
 * Escute online e offline
 * Suporte para edição de tag
-* Tendências de resultados de pesquisa
-* Suporte de pesquisa do YouTube
-* Playlists promovidas do Youtube
+* Pesquisa por resultados em alta
+* Suporta pesquisa do YouTube
+* Playlists em alta do Youtube
 * Reproduza vídeos como áudio
-* Recomendações de músicas automáticas
+* Recomendação de músicas automática
 * Equalizador embutido
 * Backup & Restauração
 * Verificação de atualização automática
-* Suporte de cache
+* Suporte à cache
 * Sem assinatura
-* Sem Ads
+* Sem anúncios
 
 e muito mais...
 Veja você mesmo :)
 
 ## Imagens
-<img src="https://github.com/Sangwan5688/blackhole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/blackhole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/blackhole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/blackhole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/blackhole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/blackhole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true" width="32%">
+<img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true" width="32%"> <img src="https://github.com/Sangwan5688/BlackHole/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true" width="32%">
 
 ## Licença
 ```
-Copyright © 2021 Dhanesh
+Copyright © 2021 Ankit Sangwan
 
-blackhole é um software grátis licenciado pelo GPL v3.0.
+BlackHole é um software grátis licenciado pelo GPL v3.0.
 Você pode redistribuir e/ou modificá-lo de acordo com os termos do GNU General Public License como foi publicado pelo
 Free Software Foundation, tanto a versão 3 da Licença, ou (por sua opção) qualquer versão posterior.
 
-blackhole é distribuído na esperança de que seja útil, mas SEM NENHUMA GARANTIA;
+BlackHole é distribuído na esperança de que seja útil, mas SEM NENHUMA GARANTIA;
 sem mesmo a garantia implícita de COMERCIALIZAÇÃO ou ADEQUAÇÃO A UM DETERMINADO FIM.
 Consulte a GNU General Public License para obter mais detalhes.
 ```
-[Ver Licença](https://github.com/Sangwan5688/blackhole/blob/main/LICENSE)
+[Ver Licença](https://github.com/Sangwan5688/BlackHole/blob/main/LICENSE)
 
-## Building from Source
+## Construa a partir do código-fonte
 
-1. Se você não tem o Flutter SDK instalado, por favor visite o oficial [Flutter](https://flutter.dev/) site.
+1. Se você não tem o SDK do Flutter instalado, por favor visite o [site oficial do Flutter](https://flutter.dev/).
 2. Obtenha o código-fonte mais recente do branch master.
 
 ```
-git clone https://github.com/Sangwan5688/blackhole.git
+git clone https://github.com/Sangwan5688/BlackHole.git
 ```
 
-3. Execute o aplicativo com Android Studio ou VS Code. Ou a linha de comando:
+3. Execute o aplicativo com Android Studio ou VS Code. Ou através da linha de comando:
 
 ```
 flutter pub get
@@ -111,15 +111,15 @@ flutter run
 
 ## Contribuição
 
-Contribuições são bem vindas. Por favor leia nosso [diretrizes de contribuição](https://github.com/Sangwan5688/blackhole/blob/main/CONTRIBUTING.md) antes de contribuir.
+Contribuições são bem vindas. Por favor leia nosso [diretrizes de contribuição](https://github.com/Sangwan5688/BlackHole/blob/main/CONTRIBUTING.md) antes de contribuir.
 
 ## Enfrentando algum problema?
 
-Olhe alguns dos [problemas](https://github.com/Sangwan5688/blackhole/wiki/Common-Issues) e veja se pode lhe ajudar. Se seu problema não está lá, sinta-se livre para abrir um :)
+Olhe alguns dos [problemas](https://github.com/Sangwan5688/BlackHole/wiki/Common-Issues) e veja se pode lhe ajudar. Se seu problema não está lá, sinta-se livre para abrir um :)
 
 ## Quer testar as versões beta? Preciso de ajuda??
 
-Você pode entrar no nosso [Canal do Telegram](https://t.me/blackhole_official) or [Grupo do Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), se você tiver alguma dúvida ou precisar de ajuda com algo, bem como para obter atualizações beta do projeto.
+Você pode entrar no nosso [canal](https://t.me/blackhole_official) ou [grupo](https://t.me/joinchat/fHDC1AWnOhw0ZmI9) do Telegram se tiver alguma dúvida ou precisar de ajuda com algo, bem como para obter atualizações beta do projeto.
 
 ## Gostou do meu trabalho?
 
@@ -127,4 +127,4 @@ Você pode entrar no nosso [Canal do Telegram](https://t.me/blackhole_official) 
 
 ## O que há de novo
 
-Para ler o changelog completo, visite o [wiki page](https://github.com/Sangwan5688/blackhole/wiki/Changelog)
+Para ler o changelog completo, visite a [nossa wiki](https://github.com/Sangwan5688/BlackHole/wiki/Changelog)
